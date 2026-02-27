@@ -5,43 +5,49 @@ const EXEC_TEAM = [
     name: 'Adwik Sharma',
     role: 'President',
     team: '355Z',
-    bio: 'Chief leader of ILREF—sets overall vision and strategic direction, presides over executive meetings, and makes final decisions on major organizational matters. Acts as the primary representative to the public, donors, and partners. Competes with state-qualified team 355Z.',
+    bio: 'Serves as the chief leader of the organization, setting the overall vision and strategic direction of the nonprofit. The President presides over executive meetings, makes final decisions on major organizational matters, and acts as the primary representative of the nonprofit to the public, donors, and partners.',
   },
   {
     name: 'Sagar Raut',
     role: 'Vice President',
     team: '2360C',
-    bio: 'Supports the President in leadership and leads when the President is unavailable. Drives strategic initiatives, oversees cross-departmental collaboration, and advocates for the team so directors have the resources they need. Member of state-qualified team 2360C.',
+    bio: 'Supports the President in all leadership responsibilities and steps in to lead when the President is unavailable. The Vice President helps drive strategic initiatives, oversees cross-departmental collaboration, and serves as an internal advocate for the team to ensure all directors have the resources they need to succeed.',
   },
   {
     name: 'Arhaan Shaikh',
     role: 'Logistics Coordinator',
     team: '355P',
-    bio: 'Plans and executes monthly robotics workshops from start to finish: securing venues, coordinating schedules, managing volunteers, organizing materials, and ensuring events run smoothly and on time. Part of state-qualified private team 355P.',
+    bio: 'Responsible for the planning and execution of every monthly robotics workshop from start to finish. This includes securing venues, coordinating schedules, managing volunteers, organizing materials, and ensuring each event runs smoothly and on time.',
   },
   {
     name: 'Ian Shi',
     role: 'Director of Technology & Equipment',
     team: '355P',
-    bio: 'Manages all robotics kits, tools, software, and technical resources used during workshops. Maintains equipment inventory, troubleshoots technical issues, and stays current on robotics technology to keep workshops engaging and up to date. Member of state-qualified team 355P.',
+    bio: 'Manages all robotics kits, tools, software, and technical resources used during workshops. This role is responsible for maintaining equipment inventory, troubleshooting technical issues, and staying current on robotics technology to keep the workshops engaging and up to date.',
   },
   {
     name: 'Karl Nguyen',
     role: 'Director of Finance',
     team: '355P',
-    bio: 'Oversees the organization’s financial health—managing budgets, tracking expenses, processing transactions, and producing financial reports. Ensures the nonprofit remains fiscally responsible and compliant with financial regulations and reporting requirements.',
+    bio: "Oversees the organization's financial health by managing budgets, tracking expenses, processing transactions, and producing financial reports. This role ensures the nonprofit remains fiscally responsible and compliant with all financial regulations and reporting requirements.",
   },
   {
     name: 'Akshobya Rao',
     role: 'Director of Technology & Web Development',
     team: '2360C',
-    bio: 'Designs, builds, and maintains ILREF’s website and online presence. Keeps the site updated with workshop information, registration pages, and organizational news, and ensures it is visually appealing, user-friendly, and reflective of our mission. On state-qualified team 2360C.',
+    bio: "Designs, builds, and maintains the nonprofit's website and online presence. This role is responsible for keeping the site updated with workshop information, registration pages, and organizational news, while also ensuring the website is visually appealing, user-friendly, and reflective of the nonprofit's mission.",
   },
   {
     name: 'Hardik Jain',
     role: 'Director of Fundraising & Development',
     team: '2360C',
-    bio: 'Leads all efforts to secure funding, including grant writing, donor relations, sponsorship outreach, and fundraising campaigns. Critical for ensuring financial support to sustain and grow our monthly workshops. Member of state-qualified team 2360C.',
+    bio: 'Leads all efforts to secure funding for the organization, including grant writing, donor relations, sponsorship outreach, and fundraising campaigns. This role is critical to ensuring the nonprofit has the financial support needed to sustain and grow its monthly workshops.',
+  },
+  {
+    name: 'Ryan Vaity',
+    role: 'Director of Marketing & Communications',
+    team: '',
+    bio: "Leads the organization's branding, outreach, and public engagement efforts. This role manages social media, promotional materials, email campaigns, and external communications to increase awareness of the nonprofit's workshops. The Director of Marketing & Communications ensures consistent messaging, strengthens the organization's public image, and helps drive attendance, partnerships, and community growth.",
   },
 ];
 
@@ -71,7 +77,7 @@ export default function About() {
               <div className="exec-avatar">{member.name.charAt(0)}</div>
               <h3 className="exec-name">{member.name}</h3>
               <p className="exec-role">{member.role}</p>
-              <p className="exec-team">Team {member.team}</p>
+              {member.team ? <p className="exec-team">Team {member.team}</p> : null}
               <p className="exec-bio">{member.bio}</p>
             </article>
           ))}
