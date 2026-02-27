@@ -5,7 +5,7 @@ const EXEC_TEAM = [
     name: 'Adwik Sharma',
     role: 'President',
     team: '355Z',
-    bio: 'Chief leader of IREF—sets overall vision and strategic direction, presides over executive meetings, and makes final decisions on major organizational matters. Acts as the primary representative to the public, donors, and partners. Competes with state-qualified team 355Z.',
+    bio: 'Chief leader of ILREF—sets overall vision and strategic direction, presides over executive meetings, and makes final decisions on major organizational matters. Acts as the primary representative to the public, donors, and partners. Competes with state-qualified team 355Z.',
   },
   {
     name: 'Sagar Raut',
@@ -35,7 +35,7 @@ const EXEC_TEAM = [
     name: 'Akshobya Rao',
     role: 'Director of Technology & Web Development',
     team: '2360C',
-    bio: 'Designs, builds, and maintains IREF’s website and online presence. Keeps the site updated with workshop information, registration pages, and organizational news, and ensures it is visually appealing, user-friendly, and reflective of our mission. On state-qualified team 2360C.',
+    bio: 'Designs, builds, and maintains ILREF’s website and online presence. Keeps the site updated with workshop information, registration pages, and organizational news, and ensures it is visually appealing, user-friendly, and reflective of our mission. On state-qualified team 2360C.',
   },
   {
     name: 'Hardik Jain',
@@ -59,7 +59,7 @@ export default function About() {
       <section className="section about-section">
         <h2 className="section-title">About Us</h2>
         <p className="section-text">
-          The Illinois Robotics Education Foundation (IREF) is a student-led nonprofit dedicated to making VEX robotics accessible to K–12 students. Through workshops, mentorship, and hands-on learning, we introduce basic engineering principles, programming, and teamwork—inspired by our own experience on state-qualified VEX teams. Our goal is to grow the next generation of builders and problem-solvers across Illinois.
+          The Illinois Robotics Education Foundation (ILREF) is a student-led nonprofit dedicated to making VEX robotics accessible to K–12 students. Through workshops, mentorship, and hands-on learning, we introduce basic engineering principles, programming, and teamwork—inspired by our own experience on state-qualified VEX teams. Our goal is to grow the next generation of builders and problem-solvers across Illinois.
         </p>
       </section>
 

@@ -7,7 +7,7 @@ export default function SignUp() {
       <section className="section signup-section">
         <h1 className="page-title">Sign Up</h1>
         <p className="section-text signup-intro">
-          Join IREF workshops and stay in the loop. Fill out the form below or use the button to open it in a new tab.
+          Join ILREF workshops and stay in the loop. Fill out the form below or use the button to open it in a new tab.
         </p>
         <a
           href={FORM_URL}
@@ -25,7 +25,7 @@ export default function SignUp() {
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
-            title="IREF sign-up form"
+            title="ILREF sign-up form"
             loading="lazy"
           >
             Loading…

@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 const FAQ_ITEMS = [
   {
-    q: 'What does IREF do?',
-    a: 'IREF runs workshops and programs that teach K–12 students the basics of VEX robotics—building, coding, and competing. We’re a student-led nonprofit focused on making robotics education accessible across Illinois.',
+    q: 'What does ILREF do?',
+    a: 'ILREF runs workshops and programs that teach K–12 students the basics of VEX robotics—building, coding, and competing. We’re a student-led nonprofit focused on making robotics education accessible across Illinois.',
   },
   {
     q: 'Who can participate?',
@@ -14,7 +14,7 @@ const FAQ_ITEMS = [
     a: 'For most workshops, we provide or coordinate equipment. Specific requirements will be shared when you sign up for an event.',
   },
   {
-    q: 'How can my school or club partner with IREF?',
+    q: 'How can my school or club partner with ILREF?',
     a: 'Reach out via our social channels (Instagram or Facebook) or talk to us at an event. Our Head of Outreach coordinates partnerships and visits.',
   },
   {

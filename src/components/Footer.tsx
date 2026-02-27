@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <Link to="/" className="footer-logo">IREF</Link>
+          <Link to="/" className="footer-logo">ILREF</Link>
           <p className="footer-tagline">Illinois Robotics Education Foundation</p>
         </div>
         <div className="footer-links">

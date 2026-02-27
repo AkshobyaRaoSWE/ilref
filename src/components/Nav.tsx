@@ -14,7 +14,7 @@ export default function Nav() {
   return (
     <nav className="nav">
       <Link to="/" className="nav-logo">
-        IREF
+        ILREF
       </Link>
       <ul className="nav-links">
         {links.map(({ to, label }) => (
